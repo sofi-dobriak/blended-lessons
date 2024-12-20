@@ -7,13 +7,45 @@ console.log(' ');
 
 // ===============================================
 
-function slugify(title) {
-    let slug = title.split(' ');
+// Якщо змінна number дорівнює 10, виведіть 'Вірно', інакше виведіть 'Невірно'.
 
-    return slug.join('-').toLowerCase();
-}
+// Змінна num може набувати 4 значення: 1, 2, 3 або 4. Якщо вона має
+// значення '1', то у змінну result запишемо 'зима', якщо має значення
+// '2' - 'весна' і так далі.
 
-console.log(slugify('Arrays for beginners')); // "arrays-for-beginners"
-console.log(slugify('English for developer')); // "english-for-developer"
-console.log(slugify('Ten secrets of JavaScript')); // "ten-secrets-of-javascript"
-console.log(slugify('How to become a JUNIOR developer in TWO WEEKS')); // "how-to-become-a-junior-developer-in-two-weeks"
+// Напишіть програму, яка отримає від користувача
+//число (кількість хвилин) і виведе у консоль
+//рядок у форматі годин і хвилин
+//70 === 01:10
+
+//Напишіть цикл, який виводить у консоль
+// числа від max до min за спаданням
+// Додайте усі парні числа від min до max
+
+// Напишіть if..else, що відповідає наступному switch:
+
+// switch (browser) {
+//   case 'Edge':
+//     alert( "You've got the Edge!" );
+//     break;
+
+//   case 'Chrome':
+//   case 'Firefox':
+//   case 'Safari':
+//   case 'Opera':
+//     alert( 'Okay we support these browsers too' );
+//     break;
+
+//   default:
+//     alert( 'We hope that this page looks ok!' );
+// }
+
+//При завантаженні сторінки користувачеві пропонується
+//в prompt ввести число. Введення додається до значення
+//змінної total.
+//Операція введення числа триває до того часу,
+//поки користувач не натисне кнопку Cancel в prompt.
+//Після того, як користувач припинив введення натиснувши на
+//кнопку Cancel, показати alert з рядком "Загальна сума введених чисел дорівнює [число]."
+//Робити перевірку,що користувач ввів саме число,
+//а не довільний набір символів, не потрібно.
