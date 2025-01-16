@@ -1,1 +1,1 @@
-Solutions to tasks from additional lessons with a mentor
+Solutions to tasks from additional lessons (blended lessons) with a mentor

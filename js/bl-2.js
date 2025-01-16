@@ -25,9 +25,9 @@ user.premium = false;
 
 const keys = Object.keys(user);
 
-// for (const key of keys) {
-//     console.log(`${key}: ${user[key]}`);
-// }
+for (const key of keys) {
+    // console.log(`${key}: ${user[key]}`);
+}
 
 // Task 2
 //Напишіть функцію caclculateAverage()
@@ -60,7 +60,6 @@ function caclculateAverage(...params) {
 //Напиши функцію findSmallerNumber(numbers)
 //яка шукає найменше число в масиві.
 //Додай перевірку що функція отримує масив
-//const numbers = [2, 5, 35, 56, 12, 1, 24, 7, 80, 3];
 
 console.log(' ');
 console.log('Task #3');
